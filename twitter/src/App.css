@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  flex-direction: column;
+ 
+  
+ 
+}
+
+.img-wrapper {
+  display: flex;
+  height: 100vh;
+  
+}
+
+.image {
+
+
+  position: relative;
+  object-fit: 100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  margin: 0px;
+}
+
+.text {
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  color: aliceblue;
+  font-family: Lucida Console, Courier, monospace;  
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.data {
+  color: aliceblue;
+}
+
+ @media only screen and (max-width: 480px) /*I think it is Ok for mobile */
+{
+ body {
+  margin: 0px;
+ }
+
+ .img-wrapper {
+  display: flex;
+  flex-direction: column;
+
+ }
+
+ .data{
+  display: none;
+ }
+
+ 
+  
+}
